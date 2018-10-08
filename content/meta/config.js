@@ -4,18 +4,18 @@ module.exports = {
   siteTitle: "Software developer, Writer, Learner, Athlete, and much more!", // <title>
   shortSiteTitle: "Trey Lanzer Personal Blog", // <title> ending for posts and pages
   siteDescription: "Blog by Trey Lanzer",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteUrl: "",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "Trey Lanzer",
+  authorName: "Glenn Lanzer III",
   authorTwitterAccount: "LanzerTrey26",
   // info
-  infoTitle: "Trey Lanzer",
-  infoTitleNote: "personal blog",
+  infoTitle: "Glenn Lanzer III",
+  infoTitleNote: "Personal Blog",
   // manifest.json
-  manifestName: "PersonalBlog - Trey Lanzer's Blog",
+  manifestName: "PersonalBlog - Glenn Lanzer III's Blog",
   manifestShortName: "PersonalBlog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
