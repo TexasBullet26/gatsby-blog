@@ -2,7 +2,7 @@ const colors = require("../../src/styles/colors");
 
 module.exports = {
   siteTitle: "Software developer, Writer, Learner, Athlete, and much more!", // <title>
-  shortSiteTitle: "Trey Lanzer Personal Blog", // <title> ending for posts and pages
+  shortSiteTitle: "Glenn Lanzers Personal Blog", // <title> ending for posts and pages
   siteDescription: "Blog by Trey Lanzer",
   siteUrl: "",
   pathPrefix: "",
@@ -27,6 +27,7 @@ module.exports = {
   authorSocialLinks: [
     { name: "github", url: "https://github.com/TexasBullet26" },
     { name: "twitter", url: "https://twitter.com/LanzerTrey26" },
-    { name: "facebook", url: "http://facebook.com/trey.lanzer" }
+    { name: "facebook", url: "https://facebook.com/trey.lanzer" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/glenn-lanzer/" }
   ]
 };
