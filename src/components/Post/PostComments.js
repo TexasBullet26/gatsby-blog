@@ -1,17 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-import injectSheet from "react-jss";
-import FacebookProvider, { Comments } from "react-facebook";
-require("core-js/fn/array/find");
+import React from 'react';
+import PropTypes from 'prop-types';
+import injectSheet from 'react-jss';
+import FacebookProvider, { Comments } from 'react-facebook';
+require('core-js/fn/array/find');
 
-import config from "../../../content/meta/config";
+import config from '../../../content/meta/config';
 
 const styles = theme => ({
   postComments: {
-    margin: "3em 0 0",
-    padding: "3em 0 0",
-    borderTop: "1px solid #ddd"
-  }
+    margin: '3em 0 0',
+    padding: '3em 0 0',
+    borderTop: '1px solid #ddd',
+  },
 });
 
 const PostComments = props => {
@@ -35,7 +35,7 @@ PostComments.propTypes = {
   post: PropTypes.object.isRequired,
   slug: PropTypes.string.isRequired,
   theme: PropTypes.object.isRequired,
-  facebook: PropTypes.object.isRequired
+  facebook: PropTypes.object.isRequired,
 };
 
 export default injectSheet(styles)(PostComments);

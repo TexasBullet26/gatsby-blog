@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Article from "../Main/Article";
-import PostHeader from "./PostHeader";
-import Content from "../Main/Content";
-import PostFooter from "./PostFooter";
+import Article from '../Main/Article';
+import PostHeader from './PostHeader';
+import Content from '../Main/Content';
+import PostFooter from './PostFooter';
 
 const Post = props => {
   const { post, author, slug, facebook } = props;
@@ -30,7 +30,7 @@ Post.propTypes = {
   post: PropTypes.object.isRequired,
   author: PropTypes.object.isRequired,
   slug: PropTypes.string.isRequired,
-  facebook: PropTypes.object.isRequired
+  facebook: PropTypes.object.isRequired,
 };
 
 export default Post;
